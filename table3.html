@@ -18,14 +18,24 @@ width: 45px;
 table{
 margin-left: auto;margin-right: auto;text-align: center;margin-top: 50px;
 }
-
+.blink {
+            animation: blinker 3s linear infinite;
+            color: rgb(25, 0, 255);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        @keyframes blinker {
+            60% {
+                opacity: 0;
+            }
+        }
 </style>
 
 
 
 </head>
-<body>
+<body style="background-image: url('table.jpg');background-repeat: no-repeat;background-size: cover;">
    <table>
+    <caption style="font-size: 22px;">Table with merged cells</caption>
     <tr>
 <th colspan="2" rowspan="2">student</th>
 
@@ -99,6 +109,6 @@ margin-left: auto;margin-right: auto;text-align: center;margin-top: 50px;
 <td>10</td>
 </tr>
    </table> <br>
-   <b><center>prepared by:-ASAD SAJJAD</center></b>
+  <b><center class="blink"> prepared by:-ASAD SAJJAD</center></b>
 </body>
 </html>
