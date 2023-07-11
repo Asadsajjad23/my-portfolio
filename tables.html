@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+
+        table,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            border-style: dotted;
+            border-color: blue;
+        }
+        th{
+            padding: 10px;
+            
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <table>
+    <tr>
+        <th bgcolor="red">Days</th>
+        <th>1st Class</th>
+        <th>2nd Class</th>
+        <th>3rd Class</th>
+        <th>4th Class</th>
+        <th colspan="10"></th>
+        
+    </tr>
+    <tr>
+        <td>Monday</td>
+        <td rowspan="3">Chemistry</td>
+        <td>Maths</td>
+        <td>Urdu</td>
+        <td>English</td>
+        <td colspan="8"></td>
+       <td>Hello</td>
+
+        <!-- <td>Tuesday</td>
+        <td>Wednesday</td>
+        <td>Thursday</td>
+        <td>Friday</td> -->
+    </tr>
+
+
+    <tr>
+        <td>Tuesday</td>
+        <!-- <td>Chemistry</td> -->
+        <td>BIO</td>
+        <td>Isl</td>
+        <td>SST</td>
+    </tr>
+
+    <tr>
+        <td>Wednesday</td>
+        <!-- <td>Chemistry</td> -->
+        <td>Maths</td>
+        <td colspan="2">ISL</td>
+        <!-- <td>ISL</td> -->
+    </tr>
+</table>
+</body>
+</html>
+
+
+
+
